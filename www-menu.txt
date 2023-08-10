@@ -1,0 +1,129 @@
+    
+    AndreyDvinyaninov
+    Static bookmarks
+    ( google translate )
+
+  Bookmarks in browsers are dynamic temporary bookmarks.
+  You can create an HTML file to create a menu from links to sites and their themes.
+  You need a notepad editor to create and edit such a file.
+  Simple editors are needed because they do not change the file encoding.
+  Complex editors automatically change the Russian encoding when saving
+  files. This causes the file to be thrown away and the file to be recreated.
+
+  I'm not an expert on notepad-type editors. A random search turned up Akelpad.
+
+  Example work method.
+  This is ru "windows-1251" coding.
+  Create directory C:\MENU.
+  We take a simple notepad editor and copy the contents:
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<meta charset="windows-1251">
+
+</head>
+
+<body>
+<br>
+Menu - New window
+<br>
+<BR>
+<a href="https://youtube.com/" target="_blank">
+  - youtube
+</a>
+<BR>
+
+<a href="https://en1.y2mate.is/CUA/?" target="_blank">
+  - Y2Mate Youtube Downloader
+</a> - DOWNLOAD IN LOW QUALITY
+<br>
+<br>
+
+<a href="https://aliexpress.ru/popular/ddr3-8gb.html" target="_blank">
+  - aliexpress.ru ddr3 8gb
+  </a>
+<br>
+<br>
+
+<a href="https://habr.com/ru/all/" target="_blank"> - habr.com
+</a> - habr.com
+<br>
+
+<PRE><B>
+   GITHUB ==========================================
+</B></PRE>
+<a href="https://github.com/AndreyDvinyaninov/bookmarks/blob/main/constant_bookmarks_andrey_html_method.html" target="_blank">
+@</a>
+- at github - constant_bookmarks_andrey_html_method.html
+<br>
+
+<pre><b>
+   EOF ========================================
+</b></PRE>
+
+<br>
+</body>
+</html>
+
+  We save it to a file, for example 1WWW-2023.HTML in the C:\MENU directory.
+
+  Next, click on this file and Windows will call the browser by file type
+  and get something like this:
+
+Menu - New window
+
+- youtube
+- Y2Mate Youtube Downloader - DOWNLOAD IN LOW QUALITY
+
+- aliexpress.ru ddr3 8gb
+
+- habr.com - habr.com
+
+   GITHUB ==========================================
+
+@ - this file at github - constant_bookmarks_andrey_html_method.html
+
+   EOF ========================================
+
+  We get the menu. Move the mouse over the item - click. The menu item will open
+  in a new window. The "_blank" parameter is responsible for this.
+
+  To add your own items - open the HTML notepad in the editor
+  menu file - open the site and enter the desired theme - save
+  URL ( CTRL-C or mouse ) - paste URL into HTML file and generate
+  menu item. Save the file. In the browser, click the refresh icon
+  and the browser will show a new menu.
+
+  You can go to youtube, find the desired channel, save the URL
+  and create a menu item for this channel to quickly access this
+  channel at the click of a mouse.
+
+  For the weather, you need to create local menus because there in the URL will be
+  city ??name. This menu allows you to make items for different
+  weather services A simple mouse click opens a window with the weather service website.
+  This is the fastest way to get weather and compare weather from different
+  sites.
+
+  For the Avito trading platform, the URL also contains the name of the city.
+  Enter Avito in the topic of interest - save the URL - open
+  notepad editor with menu HTML file and create a new menu item.
+
+  In very large cities, you can create departure menu items
+  trolleybus from the desired stop in the desired direction.
+  The time of arrival of the trolleybus at the stop is shown.
+  For electric trains, all trains from the desired stop are shown.
+
+  The method is on github. For RU there are encoding problems.
+  Here the encoding is windows-1251. Although they say you have to go
+  to UTF-8.
+
+  The method is convenient for saving links and transferring links to different
+  computers. Another thing is that some qualification is needed for
+  menu changes.
+
+  Such menus can be added to assemblies. This is the final decision
+  to quickly navigate to the desired topics on the sites.
+
+  EOF ==== ^7UGC893
